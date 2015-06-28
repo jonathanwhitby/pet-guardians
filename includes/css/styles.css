@@ -28,9 +28,35 @@ Notes:	 Hand coded for Udemy.com
 	margin-top: 60px;
 }
 
+#dogwalkingHeading  img{
+	margin: 5px 5px 5px;
+}
+
 #homevisitsHeading {
 	text-align: center;
 	margin-top: 60px;
+}
+
+#homevisitsHeading  img{
+	margin: 5px 5px 5px;
+}
+
+#aboutHeading {
+	text-align: center;
+	margin-top: 60px;
+}
+
+#aboutHeading  img{
+	margin: 5px 5px 5px;
+}
+
+#pricesHeading {
+	text-align: center;
+	margin-top: 60px;
+}
+
+#pricesHeading  img{
+	margin: 5px 5px 5px;
 }
 
 footer {
@@ -149,6 +175,28 @@ ul.unstyled {
 }
 
 .thumbnail span.glyphicon {
+	margin-right: 10px;
+}
+
+.panel-heading {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.panel-heading .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -5px;
+	padding: 10px;
+}
+
+.panel-heading .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.panel-heading span.glyphicon {
 	margin-right: 10px;
 }
 
