@@ -133,6 +133,10 @@ ul.unstyled {
 .carousel-caption h4 {
 	font-size: 32px;
 }
+
+.carousel-caption h5{
+	font-size: 24px;
+}
    
 #myCarousel .item { height: 400px; }
 
