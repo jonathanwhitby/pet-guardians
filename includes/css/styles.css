@@ -126,8 +126,16 @@ ul.unstyled {
 	margin-top: 60px;
 }
 
+/* For use in first carousel-caption */
 .carousel-caption {
 	font-size: 24px;
+	color: #000000;
+}
+
+/* For use in first carousel-caption */
+.carousel-caption h3 {
+	font-size: 32px;
+	color: #000000;
 }
 
 .carousel-caption h4 {
