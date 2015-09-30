@@ -23,6 +23,15 @@ Notes:	 Hand coded for Udemy.com
 	margin: 0 0 20px;
 }
 
+#featuresHeading {
+	text-align: center;
+	margin-top: 60px;
+}
+
+#featuresHeading  img{
+	margin: 5px 5px 5px;
+}
+
 #dogwalkingHeading {
 	text-align: center;
 	margin-top: 60px;
