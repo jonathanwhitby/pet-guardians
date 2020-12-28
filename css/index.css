@@ -1,0 +1,110 @@
+/*
+ * 
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    color: #6c6f73;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #333;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+#stage {
+    background: url('../images/intro-bg.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption {
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 15rem auto 0;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+#stage-caption h1 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.feature-content {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.feature-content img {
+    margin-bottom: -8rem;
+}
+
+.feature-dark {
+    background: #262F36;
+    color: white;
+}
+
+.feature-dark h2 {
+    color: white;
+}
+
+.feature-alt {
+    background: #f0f0f0;
+}
+
+#main-footer {
+    background: #262F36;
+    color: white;
+    padding: 6rem 0;
+    font-size: 0.8rem;
+}
+
+#main-footer h6 {
+    color: #718FA9;
+}
+
+#main-footer a {
+    color: #6C6F73;
+}
+
+/* Media Queries */
+
+@media screen and ( max-width : 768px ) {
+    
+    #stage-caption h1 {
+        font-size: 1.5em;
+    }
+    
+}
+
+@media screen and ( min-width : 991px ) {
+    
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+    
+}
