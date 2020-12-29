@@ -53,13 +53,14 @@ img {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
-.feature-content {
-    padding: 8rem 0;
+.section-content {
+    padding: 5rem 0;
     overflow: hidden;
 }
 
-.feature-content img {
-    margin-bottom: -8rem;
+.feature-content {
+    padding: 5rem 0;
+    overflow: hidden;
 }
 
 .feature-dark {
@@ -73,6 +74,17 @@ img {
 
 .feature-alt {
     background: #f0f0f0;
+}
+
+#about {
+    background: url('../img/banner-bg.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
 }
 
 #main-footer {
