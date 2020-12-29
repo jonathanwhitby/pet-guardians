@@ -53,32 +53,32 @@ img {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+#stage-caption a {
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+#what-we-do {
+    background: white;
+    background-size: cover;
+    padding: 2rem 0;
+}
+
 .section-content {
-    padding: 5rem 0;
-    overflow: hidden;
+    padding: 3rem 0;
 }
 
-.feature-content {
-    padding: 5rem 0;
-    overflow: hidden;
-}
-
-.feature-dark {
-    background: #262F36;
-    color: white;
-}
-
-.feature-dark h2 {
-    color: white;
-}
-
-.feature-alt {
+#pricing {
     background: #f0f0f0;
+    background-size: cover;
+    padding: 3rem 0;
 }
 
 #about {
     background: url('../img/banner-bg.jpg') center center no-repeat;
     background-size: cover;
+    padding: 3rem 0;
 }
 
 .about-text {
@@ -90,7 +90,7 @@ img {
 #main-footer {
     background: #262F36;
     color: white;
-    padding: 6rem 0;
+    padding: 4rem 0;
     font-size: 0.8rem;
 }
 
@@ -112,11 +112,3 @@ img {
     
 }
 
-@media screen and ( min-width : 991px ) {
-    
-    .feature-content {
-        display: flex;
-        align-items: center;
-    }
-    
-}
