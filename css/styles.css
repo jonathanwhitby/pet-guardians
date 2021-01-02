@@ -29,7 +29,7 @@ img {
 }
 
 #stage {
-    background: url('../images/intro-bg.jpg') center center no-repeat;
+    background: url('../img/intro-bg.jpg') center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
