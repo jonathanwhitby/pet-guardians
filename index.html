@@ -4,8 +4,8 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="Pet Guardians of Fleet. Dog walking services covering Fleet, in Hampshire, and the surrounding area.
 		Home visit service for all sizes of animals. Feeding and water, cleaning, pampering, playtime.">
     <meta name="author" content="Jonathan Whitby" >
@@ -13,361 +13,272 @@
     <title>Pet Guardians of Fleet - Dog Walking, Home Visits, Pet Care.</title>
     
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/df3f314ee2.js" crossorigin="anonymous"></script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">Pet Guardians <small>of Fleet</small></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-					<li>
-						<a href="#prices">Price List</a>
-					</li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-md">
+        <a class="navbar-brand" href="#">Pet Guardians <small>of Fleet</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pgofNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-end" id="pgofNavbar">
+            <ul class="nav navbar-nav pull-sm-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#what-we-do">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
         </div>
-        <!-- /.container -->
     </nav>
 
 
-    <!-- Header -->
-    <a name="contact"></a>
-    <div class="intro-header">
-        <div class="container">
+    <!-- Stage -->
+    <a name="contact"></a> 
+    <div id="stage">
+        <div id="stage-caption">
+            <h1 class="display-3">Pet Guardians of Fleet</h1>
+            <p>Dog walking and home visit services covering Fleet, in North Hampshire and the surrounding area</p>
+            <hr class="intro-divider">
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="tel:+447773-448-967" class="btn btn-light"><i class="fas fa-mobile-alt" aria-hidden="true"></i> <span class="social-text">Phone</span></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="mailto: petguardiansoffleet@gmail.com" class="btn btn-light"><i class="fas fa-envelope" aria-hidden="true"></i> <span class="social-text">E-mail</span></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/petguardiansoffleet/" class="btn btn-light"><i class="fab fa-facebook-f" aria-hidden="true"></i> <span class="social-text">Facebook</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Pet Guardians of Fleet</h1>
-                        <h3>Dog walking and home visit services covering Fleet, in North Hampshire and the surrounding area</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="tel:+447773-448-967" class="btn btn-default btn-lg"><i class="fa fa-mobile fa-fw" aria-hidden="true"></i> <span class="network-name">Phone</span></a>
-                            </li>
-                            <li>
-                                <a href="mailto: petguardiansoffleet@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> <span class="network-name">E-mail</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/petguardiansoffleet/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li>
-                        </ul>
+    <!-- Page Content -->
+    <section id="what-we-do">
+        <div class="section-content">
+            <div class="container">
+                <h2>Services</h2>
+                <p class="lead">I provide a professional and reliable dog walking and home care services.</p>
+            
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-deck">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Dog Walking</h4>
+                                </div>
+                                <img src="img/vicky.jpg" alt="group walk">
+                                <div class="card-header">
+                                    <p>Dogs require physical and mental stimulation.  It energises their body, mind and spirit.  Some behavioural problems can be the result of bored 
+                                        dogs and I would like to help you ensure this is not the case with your dog.  Are you out all day at work?  Perhaps you just need extra help with 
+                                        your dog?  I can offer your dog something they can look forward to every day.</p>
+                    
+                                        <p>Your dog will collected from your home, place of work or wherever you choose.  I will transport them safely in our unmarked vehicle to walk in 
+                                        some of the beautiful nearby woodlands, ponds and canals. Once there they will be able to play and socialise with other dogs and you can be assured 
+                                        that your dog is having lots of fun!  Your dog will be secure and safe at all times. I will allow them to socialise with other dogs because I 
+                                        believe this is great for their development and encourages good behaviour and stimulation.</p>
+                                        
+                                        <p>Our walking ratio will not exceed four dogs to a walker.  I will always try to ensure the group of dogs being walked is planned around their 
+                                        temperament and tolerance of other dogs.  However, if you prefer, I am able to walk your dog on a one to one basis.  I will always make sure 
+                                        that your dog will walk in a relaxed happy environment.</p>
+                                        
+                                        <p>For the dogs I walk on a regular basis I will vary their walks to keep things as interesting and stimulating for them as possible.  I do also 
+                                        appreciate that you want your best friend to have lots of fun which might involve playing in mud and puddles.  If this occurs I will endeavour to 
+                                        wipe down and towel dry your dog so that they do not shake off the mud and water in your home.</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Home Care</h4>
+                                </div>
+                                <img src="img/dog.png" alt="dog at home">
+                                <div class="card-header">
+                                    <p class="lead">Need someone to check in on your dog? Or maybe administer some medication? No problem! I can visit your pet at home.</p>
+                                    <p>Whether you are at work all day, or away for a night, a few days or a few weeks, I can visit your pet(s) at home, ensuring they receive the same 
+                                    high degree of attention as if you were there.</p>
+                                    
+                                    <p>The Pet Guardians Home Care visit service can include:
+
+                                    <ul>
+                                        <li>Feeding (according to you instructions)</li>
+                                        <li>Providing fresh water</li>
+                                        <li>Daily cleaning of bowls and/or feeding area</li>
+                                        <li>Changing litter and/or cage of small pets (e.g. rodents)</li>
+                                        <li>Stocking up and cleaning outdoor bird tables</li>
+                                        <li>Letting out into the garden (if appropriate) and cleaning up afterwards</li>
+                                        <li>Pampering and playtime</li>
+                                    </ul>
+
+                                    As part of the Pet Guardians Home Care service, I also include a complimentary service of light domestic security help (often referred to as the 
+                                    &quot;cats and curtains&quot; service) so that your house does not appear unoccupied.  I can also water your plants during a hot day.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
+    </section>
 
-    </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
-	<a  name="services"></a>
-    <div class="content-section-a">
+    <section id="pricing" class="pricing">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Pricing</h1>
+            <p class="lead">Prices cover Fleet & Church Crookham, Hampshire.</p>
+        </div>
 
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <div class="section-heading clearfix">
-						<img src="images/pgf_logo_sm.png" alt="Logo"><h2 >Dog Walking</h2>
-					</div>
-                    <p class="lead">I provide a professional and reliable dog walking services.</p>
-					<p>Dogs require physical and mental stimulation.  It energises their body, mind and spirit.  Some behavioural problems can be the result of bored 
-					dogs and I would like to help you ensure this is not the case with your dog.  Are you out all day at work?  Perhaps you just need extra help with 
-					your dog?  I can offer your dog something they can look forward to every day.</p>
-
-					<p>Your dog will collected from your home, place of work or wherever you choose.  I will transport them safely in our unmarked vehicle to walk in 
-					some of the beautiful nearby woodlands, ponds and canals. Once there they will be able to play and socialise with other dogs and you can be assured 
-					that your dog is having lots of fun!  Your dog will be secure and safe at all times. I will allow them to socialise with other dogs because I 
-					believe this is great for their development and encourages good behaviour and stimulation.</p>
-					
-					<p>Our walking ratio will not exceed four dogs to a walker.  I will always try to ensure the group of dogs being walked is planned around their 
-					temperament and tolerance of other dogs.  However, if you prefer, I am able to walk your dog on a one to one basis.  I will always make sure 
-					that your dog will walk in a relaxed happy environment.</p>
-					
-					<p>For the dogs I walk on a regular basis I will vary their walks to keep things as interesting and stimulating for them as possible.  I do also 
-					appreciate that you want your best friend to have lots of fun which might involve playing in mud and puddles.  If this occurs I will endeavour to 
-					wipe down and towel dry your dog so that they do not shake off the mud and water in your home.</p>
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Group walk</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">&pound;12 <small class="text-muted">/ hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>50% discount for second dog in household</li>
+                            <li>Minimum 45 minutes walking/play</li>
+                            <li>Wipe down included as necessary</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer text-muted">
+                        FREE initial consultation
+                    </div>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="images/vicky.jpg" alt="">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Solo walk</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">&pound;20 <small class="text-muted">/ hour</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>One to one walk</li>
+                            <li>Minimum 45 minutes walking/play</li>
+                            <li>Wipe down included as necessary</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer text-muted">
+                        FREE initial consultation
+                    </div>
                 </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-					<div class="section-heading clearfix">
-						<img src="images/pgf_logo_sm.png" alt="Logo"><h2 >Home Visits<br>Small Pet Services</h2>
-					</div>
-                    <p class="lead">Need someone to check in on your dog? Or maybe administer some medication? No problem! I can visit your pet at home.</p>
-					<p>Whether you are at work all day, or away for a night, a few days or a few weeks, I can visit your pet(s) at home, ensuring they receive the same 
-					high degree of attention as if you were there.</p>
-					
-					<p>The Pet Guardians Home Care visit service can include:
-
-					<ul>
-						<li>Feeding (according to you instructions)</li>
-						<li>Providing fresh water</li>
-						<li>Daily cleaning of bowls and/or feeding area</li>
-						<li>Changing litter and/or cage of small pets (e.g. rodents)</li>
-						<li>Stocking up and cleaning outdoor bird tables</li>
-						<li>Letting out into the garden (if appropriate) and cleaning up afterwards</li>
-						<li>Pampering and playtime</li>
-					</ul>
-
-					As part of the Pet Guardians Home Care service, I also include a complimentary service of light domestic security help (often referred to as the 
-					&quot;cats and curtains&quot; service) so that your house does not appear unoccupied.  I can also water your plants during a hot day.</p>
-					
-                </div>
-                <div class="col-lg-5 col-sm-pull-6 col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-	
-	<a  name="prices"></a>
-    <div class="content-section-c">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-					<div class="section-heading clearfix">
-						<img src="images/pgf_logo_sm.png" alt="Logo"><h2 >Price List</h2>
-					</div>
-					<div class="row" id="pricesInfo">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-							Initial Consultation
-							</div><!-- end panel-heading -->
-							
-							<div class="panel-body">
-							Free
-							</div><!-- end panel-body -->
-						</div><!-- end panel-primary -->
-						
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								Dog Walking
-							</div><!-- end panel-heading -->
-							
-							<div class="panel-body">
-								&pound;12 for a 1 hour session<br>
-								50% discount for second dog in household<br>
-								&pound;18 one to one walk<br>
-							</div><!-- end panel-body -->
-							
-							<div class="panel-footer">
-								1 hour sessions include a minimum of 45 minutes walking/play.  I always allow 15 minutes to ensure your dog has been wiped down if
-								necessary and has had access to a drink prior to being left.
-							</div><!-- end panel-footer -->
-						</div><!-- end panel-success -->
-						
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								Small Pet Visits/Care
-							</div><!-- end panel-heading -->
-							
-							<div class="panel-body">
-								&pound;7 for a minimum of 15 minutes which includes up to two pets<br>
-								&pound;1 charge for each additional pet<br>
-								&pound;10 for a half hour visit<br>
-								&pound;10 for two separate 15 minute visits<br>
-							</div><!-- end panel-body -->
-						</div><!-- end panel-info -->
-						
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								Puppy/ Older Dog Visits
-							</div><!-- end panel-heading -->
-							
-							<div class="panel-body">
-								&pound;10 for a 30 minute visit<br>
-							</div><!-- end panel-body -->
-						</div><!-- end panel-warning -->
-						<p >Prices correct as of: December 2019</p>
-					</div><!--	end pricesInfo	-->
-                </div>
-				<div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <h4><span class="glyphicon glyphicon-map-marker"></span> Location <small>I also cover the surrounding areas!</small></h4>
-								
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19964.515863678756!2d-0.8364089999999978!3d51.282335350000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48742935849681a9%3A0x16904f65379af3ee!2sFleet%2C+Hampshire!5e0!3m2!1sen!2suk!4v1430508153004" width="100%" height="400" frameborder="0" style="border:0"></iframe>
-					
-					<p>I am based in Fleet, Hampshire and cover the following postcode areas:</p>
-					<ul class="list-group">
-					  <li class="list-group-item">
-						<span class="badge">GU51</span>
-						Fleet and Elvetham Heath
-					  </li>
-					  <li class="list-group-item">
-						<span class="badge">GU52</span>
-						Church Crookham and Crookham Village
-					  </li>
-					  <li class="list-group-item">
-						<span class="badge">GU14</span>
-						Farnborough, Cove
-					  </li>
-					  <li class="list-group-item">
-						<span class="badge">GU16</span>
-						Frimley, Frimley Green, Deepcut, Mytchett
-					  </li>
-					</ul>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Home care</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">&pound;10 <small class="text-muted">/ 15 mins</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Includes up to two pets</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer text-muted">
+                        FREE initial consultation
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- /.container -->
+    </section>
 
-    </div>
-    <!-- /.content-section-a -->
-
-
-	<a  name="about"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Pet Guardians of Fleet:</h2>
-					<p>Hello, I am Vicky Whitby, co-founder and owner of Pet Guardians of Fleet.</p>
-						
-					<p>I set up the business in 2015 with my friend Alison Nicoll out of a shared love of animals.  Alison left the business in 2016 just before emigrating to New Zealand.</p>
+    <!-- About -->
+    <section id="about">
+        <div class="section-content">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>About Pet Guardians of Fleet</h3>
+                        <p class="lead">Hello, I am Vicky Whitby, co-founder and owner of Pet Guardians of Fleet.</p>
+                        <p>I set up the business in 2015 with my friend Alison Nicoll out of a shared love of animals.  Alison left the business in 2016 just before emigrating to New Zealand.</p>
 					
-					<p>The happiness and wellbeing of an animal is my focus when doing a job and I promise to always give the best care possible
-					to your pet.</p>
-					
-					<p>During my childhood and young adult years my family and I owned a German Shepherd cross, a pure breed German Shepherd
-					and a Staffordshire Bull Terrier cross.  I also enjoyed caring for my family's rabbits, chicken and cat.</p>
-					 
-					<p>Once married my husband and I adopted two Collies named Bess and Dale.  Sadly Bess died in 2015, aged 16, and Dale died in July this year, aged 15.</p>
-					 
-					<p>Over the years I have cared for Guinea Pigs, budgies, Cockatoos, frogspawn and Pygmy Hedgehogs.</p>
-					 
-					<p>I have attended dog training classes including animal obedience and canine first aid.</p>
-					
-					<p>I hope that I am able to help you in the care of your pet and look forward to meeting you and your animals.</p>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-							<a href="tel:+447773-448-967" class="btn btn-default btn-lg"><i class="fa fa-mobile fa-fw" aria-hidden="true"></i> <span class="network-name">Phone</span></a>
-						</li>
-						<li>
-							<a href="mailto: petguardiansoffleet@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> <span class="network-name">E-mail</span></a>
-						</li>
-						<li>
-							<a href="https://www.facebook.com/petguardiansoffleet/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-						</li>
-                    </ul>
+                        <p>The happiness and wellbeing of an animal is my focus when doing a job and I promise to always give the best care possible
+                        to your pet.</p>
+                        
+                        <p>During my childhood and young adult years my family and I owned a German Shepherd cross, a pure breed German Shepherd
+                        and a Staffordshire Bull Terrier cross.  I also enjoyed caring for my family's rabbits, chicken and cat.</p>
+                        
+                        <p>Once married my husband and I adopted two Collies named Bess and Dale.  Sadly Bess died a few years ago, aged 16, and Dale died in July 2020, aged 15.</p>
+                        
+                        <p>Over the years I have cared for Guinea Pigs, budgies, Cockatoos, frogspawn and Pygmy Hedgehogs.</p>
+                        
+                        <p>I have attended dog training classes including animal obedience and canine first aid.</p>
+                        
+                        <p>I hope that I am able to help you in the care of your pet and look forward to meeting you and your animals.</p>
+                        
+                        <h5>Follow me on the web</h5>
+                        <a href="https://www.facebook.com/petguardiansoffleet/" class="btn btn-sm btn-outline-light"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com/petguardiansoffleet?igshid=5y4mttukmxm5" class="btn btn-sm btn-outline-light"><i class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
+    </section>
 
     <!-- Footer -->
-    <footer>
+    <footer id="main-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-md-8">
                     <ul class="list-inline">
-                        <li>
+                        <li class="list-inline-item">
                             <a href="#">Home</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
+                        <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#services-cards">Services</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
+                        <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#pricing">Pricing</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#prices">Price List</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
+                        <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
                             <a href="#contact">Contact</a>
                         </li>
+                        <li class="footer-menu-divider list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#about">About</a>
+                        </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Pet Guardians of Fleet 2015-20. All Rights Reserved</p>
-                    <p class="copyright text-muted small">Coded with <span class="glyphicon glyphicon-heart"></span> by penf01d  	</p>
+                    <p>Copyright &copy; Pet Guardians of Fleet 2015-21. All Rights Reserved.</p>
+                    <p>Coded with <span class="fa fa-heart"></span> by penf01d</p>
 					<h6>Images courtesy of Jennie Quinn and Death to the Stock Photo</h6>
                 </div>
             </div>
         </div>
     </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 

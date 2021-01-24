@@ -1,0 +1,114 @@
+/*
+ * Pet Guardians of Fleet Stylesheet
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    color: #6c6f73;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #333;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+#stage {
+    background: url('../img/intro-bg.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption {
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 15rem auto 0;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+#stage-caption h1 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+#stage-caption a {
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+#what-we-do {
+    background: white;
+    background-size: cover;
+    padding: 2rem 0;
+}
+
+.section-content {
+    padding: 3rem 0;
+}
+
+#pricing {
+    background: #f0f0f0;
+    background-size: cover;
+    padding: 3rem 0;
+}
+
+#about {
+    background: url('../img/banner-bg.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#main-footer {
+    background: #262F36;
+    color: white;
+    padding: 4rem 0;
+    font-size: 0.8rem;
+}
+
+#main-footer h6 {
+    color: #718FA9;
+}
+
+#main-footer a {
+    color: #6C6F73;
+}
+
+/* Media Queries */
+
+@media screen and ( max-width : 768px ) {
+    
+    #stage-caption h1 {
+        font-size: 1.5em;
+    }
+    
+}
+
